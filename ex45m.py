@@ -276,7 +276,7 @@ class GalleryRoom(object):
         if player.inventory == {} and TreasureCase.treasure == []:
             # I have created this if-else statement so that the user can only
             # get the treasure and items once; without it a user could enter
-            # this room twice andwin the game without facing the Troll.
+            # this room twice and win the game without facing the Troll.
             print(dedent("""
                   You discover one Golden Coin and a Silver Jewel Encrusted Crown.
                   Moreover, on the walls, you discover a sword and shield.
